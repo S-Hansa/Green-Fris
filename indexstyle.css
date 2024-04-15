@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background: linear-gradient(to left, #047535, #67e985); 
+    transition: background 0.5s ease;
+}
+.heder{
+    position: fixed;
+    background-color: #047535;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3vh;
+    z-index: 4;   
+}
+.heder a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1vw 1vh;
+    text-decoration: none;
+}
+.heder a:hover {
+    background-color: #ffffff;
+    color: #047535;
+}
+.slider{
+    position: fixed;
+    top: 8vh;
+    width: 100%;
+    height: 70vh;
+}
+img{
+    width: 100%;
+    height: 70vh;
+}
+.colum{
+    width: 100%;
+    height: 14vh;
+}
+.vision{
+    position: fixed;
+    top: 75vh;
+    width: 50vw;
+    text-align: center;
+    height: 20vh;
+}
+.mision{
+    position: fixed;
+    width: 50vw;
+    top: 75vh;
+    text-align: center;
+    left: 50vw;
+    height: 20vh;
+}
+h1{
+    font-size: 5vh;
+}
+h2{
+    font-size: 3vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    position: fixed;
+    top: 90vh;
+}
+p.cd{
+    position: fixed;
+    top: 90vh;
+    font-size: 2vh;
+    font-weight: bolder;
+    text-align: center;
+    left: 1vw;
+}
+p.name{
+    position: fixed;
+    top: 93vh;
+    font-size: 2vh;
+    left: 1vw;
+}

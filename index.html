@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image\png" href="icon.png">
+        <title>Green Friends</title>
+        <link rel="stylesheet"  href="indexstyle.css">
+    </head>
+    <body>
+        <div class="heder">
+            <div class="heder">
+                <a href="index.html">HOME</a>
+                <a href="GARBAGE & POLLUTION.html">GARBAGE & POLLUTION</a>
+                <a href="GARBAGE & SOLUTION.html">GARBAGE & SOLUTION</a>
+                <a href="COMMUNITY WORK.html">COMMUNITY WORK</a>
+                <a href="FEEDBACK.html">YOUR FEEDBACK</a>
+            </div>
+        </div>
+        <div class="slider">
+            <img src="1.jpg">
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var images = ['1.jpg', '2.jpg', '3.jpg'];
+                var currentSlide = 0;
+                var slider = document.querySelector('.slider img');
+                var totalSlides = images.length;
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % totalSlides;
+                    slider.src = images[currentSlide];
+                }
+                setInterval(nextSlide, 3000);
+            });
+        </script>
+        <div class="colum">
+            <div class="vision">
+                <h1>VISION</h1>
+                <h2>Be Human For A Clean Environment.</h2>
+            </div>
+            <div class="mision">
+                <h1>MISSION</h1>
+                <h2>Empowering People With Knowledge To Build An Informed Society For A Sustainable And Eco-Friendly Tomorrow.</h2>
+            </div>
+        </div>
+        <footer>
+            <p class="cd"> Create & Design By</p>
+            <p class="name">&copy; M.V.S.H.Mathugama </p>
+        </footer>
+    </body>
+</html>
